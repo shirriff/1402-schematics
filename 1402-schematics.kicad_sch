@@ -1,0 +1,163 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f0105c73-ef22-447c-b397-7ab9470c412b")
+	(paper "USLetter" portrait)
+	(title_block
+		(title "IBM 1402 schematics - index")
+		(date "2024-02-26")
+		(rev "0.1")
+		(company "Ken Shirriff")
+	)
+	(lib_symbols)
+	(text "These approximately\ncorrespond to page 6,7\n"
+		(exclude_from_sim no)
+		(at 116.078 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3da0720d-3cfa-479e-8849-0877bb9ee868")
+	)
+	(text "These approximately\ncorrespond to page 3A,4A\n"
+		(exclude_from_sim no)
+		(at 56.388 39.116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81ef576f-5d3f-40ad-9c8b-4a280fe9ba2c")
+	)
+	(text "These approximately\ncorrespond to page 3A,3B"
+		(exclude_from_sim no)
+		(at 56.896 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9f4b9e7-d048-4f3a-b29c-493d8a4144b0")
+	)
+	(sheet
+		(at 101.6 34.29)
+		(size 31.75 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2d990013-907d-40ac-9719-0397197f9a01")
+		(property "Sheetname" "Clutch, Read Stop circuits"
+			(at 101.6 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "clutch.kicad_sch"
+			(at 101.6 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 54.61)
+		(size 31.75 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d008fff-6948-4de5-ad8e-92451d52b261")
+		(property "Sheetname" "Reader Circuits"
+			(at 41.91 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "reader.kicad_sch"
+			(at 41.91 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 34.29)
+		(size 31.75 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "911842aa-f39f-43fb-849f-6e1360ea422f")
+		(property "Sheetname" "Card Levers, Feed, Stop"
+			(at 41.91 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cl.kicad_sch"
+			(at 41.91 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "4")
+		)
+	)
+)

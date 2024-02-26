@@ -1,0 +1,8383 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3691822f-6e6b-416c-9710-ef6dc8311c5d")
+	(paper "USLetter" portrait)
+	(title_block
+		(title "IBM 1402 Reader Circuits")
+		(date "2024-02-26")
+		(rev "0.1")
+		(comment 1 "Ken Shirriff")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:1N4148W"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ibm:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at -1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ibm:cam"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay*StandexMeder*DIP*LowProfile*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "cam_0_0"
+				(polyline
+					(pts
+						(xy 8.5632 -1.2675) (xy 6.0232 -1.2675) (xy 6.6582 -0.6325) (xy 7.2932 -1.2675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "cam_0_1"
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.6753 1.5881)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "cam_1_1"
+				(pin passive line
+					(at 1.27 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ibm:relay-NC"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay*StandexMeder*DIP*LowProfile*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "relay-NC_0_0"
+				(polyline
+					(pts
+						(xy 8.89 1.27) (xy 6.35 1.27) (xy 6.985 0.635) (xy 7.62 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "relay-NC_0_1"
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 7.2603 0.3121)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "relay-NC_1_1"
+				(pin passive line
+					(at 1.27 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ibm:relay-NO"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay*StandexMeder*DIP*LowProfile*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "relay-NO_0_0"
+				(polyline
+					(pts
+						(xy 8.89 -1.27) (xy 6.35 -1.27) (xy 6.985 -0.635) (xy 7.62 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "relay-NO_0_1"
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 7.2603 0.3121)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "relay-NO_1_1"
+				(pin passive line
+					(at 1.27 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ibm:relay-NONC"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay*StandexMeder*DIP*LowProfile*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "relay-NONC_0_0"
+				(polyline
+					(pts
+						(xy 8.89 -1.27) (xy 6.35 -1.27) (xy 6.985 -0.635) (xy 7.62 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 1.27) (xy 6.35 1.27) (xy 6.985 0.635) (xy 7.62 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "relay-NONC_0_1"
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 7.2603 0.3121)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "relay-NONC_1_1"
+				(pin passive line
+					(at 1.27 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ibm:relay-coil"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "relay-coil"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay*StandexMeder*DIP*LowProfile*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "relay-coil_0_1"
+				(rectangle
+					(start -3.81 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "relay-coil_1_1"
+				(pin passive line
+					(at -2.54 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ibm:switch"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "switch"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW?DIP?x1*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "switch_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.127) (xy 2.3622 1.1684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "switch_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "switch_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ibm:switch_NC"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "switch"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW?DIP?x1*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "switch_NC_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.522 0.0565) (xy 1.4768 0.051)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.0255 -2.0414)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "switch_NC_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "switch_NC_1_1"
+				(polyline
+					(pts
+						(xy 1.1261 -0.1247) (xy 1.3933 0.0233)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.1261 0.2317) (xy 1.3933 0.0837)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ibm:switch_NONC"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "switch"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW?DIP?x1*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "switch_NONC_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.522 0.0565) (xy 1.4768 0.051)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "switch_NONC_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 1.8373 -2.5335)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "switch_NONC_1_1"
+				(polyline
+					(pts
+						(xy 0.9317 -0.2097) (xy 1.3933 0.0233)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9317 0.3599) (xy 1.3933 0.0837)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 90.17 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09af5313-d878-4276-ac61-45cb1cabaf67")
+	)
+	(junction
+		(at 66.04 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17622862-cf55-4f53-a99d-048fec5444b4")
+	)
+	(junction
+		(at 128.27 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2512508f-fcb1-47d7-804c-919de2656451")
+	)
+	(junction
+		(at 128.27 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b9fa7a3-98b6-4041-9861-6966e057e78f")
+	)
+	(junction
+		(at 71.12 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37db4b8e-77c3-4fd1-b8ed-1944fb78ac44")
+	)
+	(junction
+		(at 96.52 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3adf271f-ce27-4b11-9a5b-da4766e55e4d")
+	)
+	(junction
+		(at 111.76 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a6209cd-64fe-4436-bf82-a26ec9111b32")
+	)
+	(junction
+		(at 97.79 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f5432d0-ab84-45cf-ae80-10e86067ef99")
+	)
+	(junction
+		(at 52.07 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dab0426-e44c-4f4b-bb4f-4286d851e823")
+	)
+	(junction
+		(at 96.52 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f871453-29ce-45ad-ac7b-905cc17202b5")
+	)
+	(junction
+		(at 105.41 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fda8692-1011-4e77-8edc-8bf781c83d77")
+	)
+	(junction
+		(at 73.66 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7016d35e-afd7-423c-92fb-0c2f2c2dfdaf")
+	)
+	(junction
+		(at 139.7 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ecedccf-9ccb-4fa7-ac7c-83c989642c66")
+	)
+	(junction
+		(at 77.47 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5d3680f-e47f-48bb-ae47-225af4d14365")
+	)
+	(junction
+		(at 118.11 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a94820f1-032d-41f0-8516-8205cf480052")
+	)
+	(junction
+		(at 120.65 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9c3a394-c4ff-483d-a384-618a4e60753b")
+	)
+	(junction
+		(at 137.16 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acd7bb13-fd29-42f7-b656-5a397208028b")
+	)
+	(junction
+		(at 53.34 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b879a40e-eaea-4f72-9255-c485bca993dc")
+	)
+	(junction
+		(at 137.16 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb854cd8-3358-4082-a726-5e6f80ae9c00")
+	)
+	(junction
+		(at 66.04 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfa3cf73-c59c-4c6d-b14c-772127233f7a")
+	)
+	(junction
+		(at 96.52 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c20dcf1f-57a5-40f0-b740-7e25da5c2645")
+	)
+	(junction
+		(at 76.2 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c23afcc5-7358-41c5-a052-a1e390bd6089")
+	)
+	(junction
+		(at 53.34 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc6b2416-387f-4f0a-8e5f-d0e32388c8da")
+	)
+	(junction
+		(at 38.1 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfce5890-2113-4233-87be-7b870667c72f")
+	)
+	(junction
+		(at 111.76 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0a302a2-9f18-4b06-9d52-9dd18aa9d0bb")
+	)
+	(junction
+		(at 80.01 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d37356c4-1ae5-4605-b341-02780f8a0dd9")
+	)
+	(junction
+		(at 128.27 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecb6364c-2312-48f8-81ce-e18eed2fe37b")
+	)
+	(junction
+		(at 76.2 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7aa9413-b57f-4d16-b2de-e4bdf309890f")
+	)
+	(wire
+		(pts
+			(xy 128.27 82.55) (xy 128.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0038775f-ae76-4f82-8251-f92ebc4cf13a")
+	)
+	(wire
+		(pts
+			(xy 106.68 72.39) (xy 106.68 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007dd80f-0e06-4bbe-b5e6-2a63728cf487")
+	)
+	(wire
+		(pts
+			(xy 128.27 60.96) (xy 133.35 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e3550b-98e8-465d-8009-4284b1765b82")
+	)
+	(wire
+		(pts
+			(xy 156.21 203.2) (xy 156.21 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f32f8d-a630-4d42-bf70-04bf3fe9fd7b")
+	)
+	(wire
+		(pts
+			(xy 64.77 207.01) (xy 85.09 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0638de7b-2bee-4994-8bf6-915d9e81f757")
+	)
+	(wire
+		(pts
+			(xy 128.27 76.2) (xy 128.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c2e208-168f-4ab5-a044-d9d138c94fce")
+	)
+	(wire
+		(pts
+			(xy 76.2 111.76) (xy 82.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f5392c-60cc-42d1-bf61-1a09b762ab91")
+	)
+	(wire
+		(pts
+			(xy 90.17 111.76) (xy 96.52 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "080a8a44-01a6-49b7-963c-f6f88c0e8f70")
+	)
+	(wire
+		(pts
+			(xy 36.83 212.09) (xy 40.64 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8d8065-6081-48d8-af08-d04dc18af53a")
+	)
+	(wire
+		(pts
+			(xy 118.11 160.02) (xy 156.21 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b20660b-4bb0-4daf-9d63-04adc7a80983")
+	)
+	(wire
+		(pts
+			(xy 137.16 121.92) (xy 137.16 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b87e99a-c19c-44e7-a241-8419a38bd2c8")
+	)
+	(wire
+		(pts
+			(xy 96.52 90.17) (xy 97.79 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c375351-1708-4bf0-8581-bc348097743c")
+	)
+	(wire
+		(pts
+			(xy 66.04 195.58) (xy 66.04 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f851d5c-faf9-4ffd-a2d9-97bbcd3f1aaa")
+	)
+	(wire
+		(pts
+			(xy 67.31 195.58) (xy 66.04 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107b1d69-3b7b-47d5-b6b1-606ed11069a6")
+	)
+	(wire
+		(pts
+			(xy 81.28 199.39) (xy 81.28 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110db909-6f3d-4f58-8cc9-1da64095428f")
+	)
+	(wire
+		(pts
+			(xy 80.01 172.72) (xy 80.01 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "113bb9ba-647a-4de0-86c0-07ce5404937a")
+	)
+	(wire
+		(pts
+			(xy 120.65 236.22) (xy 63.5 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d470c8-cd7d-430b-9f88-4a1f950f56c3")
+	)
+	(wire
+		(pts
+			(xy 76.2 111.76) (xy 76.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13719793-9c18-4918-8bbb-73dfdeda57e0")
+	)
+	(wire
+		(pts
+			(xy 80.01 171.45) (xy 80.01 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1488290d-ca41-47f2-bb93-869edf3b4ac4")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f2ebb7-45cd-4cf1-878d-314cdd4ec742")
+	)
+	(wire
+		(pts
+			(xy 160.02 234.95) (xy 162.56 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ab7268-2f0e-41d9-bd82-ebfd45f7ebda")
+	)
+	(wire
+		(pts
+			(xy 66.04 35.56) (xy 66.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab39247-f07c-4a70-9822-3d221cdcfb54")
+	)
+	(wire
+		(pts
+			(xy 36.83 194.31) (xy 55.88 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac84106-2078-4f80-a38f-023c52edcb9b")
+	)
+	(wire
+		(pts
+			(xy 128.27 63.5) (xy 128.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3656ee-174b-454a-b8c5-c8c316c1e7cb")
+	)
+	(wire
+		(pts
+			(xy 140.97 237.49) (xy 156.21 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c28ee8e-cc31-4196-ae77-74c9dc30e796")
+	)
+	(wire
+		(pts
+			(xy 160.02 160.02) (xy 162.56 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3f0099-9886-4bb8-b823-4a1bf2f8d52c")
+	)
+	(wire
+		(pts
+			(xy 83.82 146.05) (xy 90.17 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2016ce79-d164-47c3-b56b-c5a3ba9faa30")
+	)
+	(wire
+		(pts
+			(xy 76.2 195.58) (xy 74.93 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d0039d-a8e4-48f7-8cfa-585dba77f78a")
+	)
+	(wire
+		(pts
+			(xy 66.04 199.39) (xy 81.28 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c8bd7b-31cf-4817-9abf-3b53d409f05c")
+	)
+	(wire
+		(pts
+			(xy 52.07 213.36) (xy 52.07 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e2b0c1-68ad-432e-ac51-693e06075be5")
+	)
+	(wire
+		(pts
+			(xy 160.02 146.05) (xy 162.56 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6e08fd-7f17-4452-9ad5-7fe3d8be0b61")
+	)
+	(wire
+		(pts
+			(xy 67.31 227.33) (xy 120.65 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cec9fa3-0848-4022-be93-6ed62d6bc262")
+	)
+	(wire
+		(pts
+			(xy 97.79 147.32) (xy 97.79 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3de6ec-3eba-4692-a4f0-e4f82e85f6e6")
+	)
+	(wire
+		(pts
+			(xy 139.7 200.66) (xy 139.7 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337bfc03-5ed9-4edd-9931-9a5dca230042")
+	)
+	(wire
+		(pts
+			(xy 96.52 62.23) (xy 96.52 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f4f622-0ffb-470e-b06c-2afdf8f2a055")
+	)
+	(wire
+		(pts
+			(xy 77.47 35.56) (xy 77.47 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a3fd99-594f-44d4-82b0-11cdabe2ba85")
+	)
+	(wire
+		(pts
+			(xy 64.77 160.02) (xy 118.11 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a6ed979-7f09-4759-9b49-919cec74d189")
+	)
+	(wire
+		(pts
+			(xy 49.53 34.29) (xy 49.53 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1e086a-ee2a-405d-b726-10f5c754c0a7")
+	)
+	(wire
+		(pts
+			(xy 105.41 35.56) (xy 156.21 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c245b11-9cea-4f69-898f-d4884fb2f2f2")
+	)
+	(wire
+		(pts
+			(xy 52.07 213.36) (xy 52.07 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d103388-a001-4385-b584-7b9425028a8b")
+	)
+	(wire
+		(pts
+			(xy 111.76 62.23) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc2471b-1dac-4f30-87bb-096397f1a1c2")
+	)
+	(wire
+		(pts
+			(xy 106.68 90.17) (xy 128.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e98ae7b-7a99-4c32-a384-56e3859a8e6c")
+	)
+	(wire
+		(pts
+			(xy 105.41 101.6) (xy 128.27 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea9a196-af70-4419-82e5-c572ac4ac7af")
+	)
+	(wire
+		(pts
+			(xy 157.48 60.96) (xy 161.29 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ebad364-4423-4547-90cb-fd97825590e5")
+	)
+	(wire
+		(pts
+			(xy 139.7 200.66) (xy 137.16 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e53129-3d04-4d0e-b9fc-802053ab594b")
+	)
+	(wire
+		(pts
+			(xy 36.83 182.88) (xy 55.88 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a1e3e0-cfdf-4be2-ab10-9677bed92e23")
+	)
+	(wire
+		(pts
+			(xy 142.24 77.47) (xy 142.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d8c2dd-b0b6-483f-8e84-1b0485264b3b")
+	)
+	(wire
+		(pts
+			(xy 64.77 111.76) (xy 64.77 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "471b2674-c879-4690-8425-0c3b43b2999b")
+	)
+	(wire
+		(pts
+			(xy 160.02 111.76) (xy 162.56 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487e7cb4-9c93-4a65-a2fa-575797a69f5c")
+	)
+	(wire
+		(pts
+			(xy 105.41 146.05) (xy 105.41 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48926893-aded-4bec-ba42-47210a4780e1")
+	)
+	(wire
+		(pts
+			(xy 97.79 81.28) (xy 96.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1cc497-a149-41e1-8d69-1204b7cbbe24")
+	)
+	(wire
+		(pts
+			(xy 162.56 246.38) (xy 163.83 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c55269f-d2e1-4a56-8964-6ed897981781")
+	)
+	(wire
+		(pts
+			(xy 105.41 110.49) (xy 137.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50266583-f284-4503-8fbe-7a88dd521230")
+	)
+	(wire
+		(pts
+			(xy 142.24 60.96) (xy 149.86 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ef0d84-4deb-4c61-aeea-cda4da355c61")
+	)
+	(wire
+		(pts
+			(xy 73.66 246.38) (xy 63.5 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53343693-0eb6-40e1-8a5c-72497c8b946d")
+	)
+	(wire
+		(pts
+			(xy 142.24 76.2) (xy 156.21 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547dff1b-5eb6-411c-a62b-7e89681f83b7")
+	)
+	(wire
+		(pts
+			(xy 92.71 35.56) (xy 97.79 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54eda6f2-6cc9-44ee-bb34-fdfecf76eba5")
+	)
+	(wire
+		(pts
+			(xy 168.91 60.96) (xy 170.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a37b53-e85c-457d-9440-1f4dbf48b73e")
+	)
+	(wire
+		(pts
+			(xy 71.12 172.72) (xy 71.12 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e6f1ad-cd25-4070-aadf-1b2853382592")
+	)
+	(wire
+		(pts
+			(xy 53.34 35.56) (xy 54.61 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "597cfaf0-b79a-4931-ba42-5966aa94317c")
+	)
+	(wire
+		(pts
+			(xy 111.76 166.37) (xy 111.76 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5eb8d3-f460-4f2f-bf4e-8d47394387b0")
+	)
+	(wire
+		(pts
+			(xy 66.04 195.58) (xy 64.77 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa25b92-a4ee-4ccf-aef0-5b70ae3d7fa6")
+	)
+	(wire
+		(pts
+			(xy 63.5 34.29) (xy 63.5 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638269b5-fc5a-4ed2-922c-24c46ded1149")
+	)
+	(wire
+		(pts
+			(xy 76.2 35.56) (xy 77.47 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6817be94-5003-4bbd-a307-55add116cfb7")
+	)
+	(wire
+		(pts
+			(xy 93.98 173.99) (xy 156.21 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1828cc-0767-4459-a16d-0f310d5605f9")
+	)
+	(wire
+		(pts
+			(xy 128.27 90.17) (xy 128.27 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8007ad-2071-463c-91ed-c4f39380682b")
+	)
+	(wire
+		(pts
+			(xy 64.77 123.19) (xy 64.77 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea51aee-04b5-47f1-948b-ee341cbfd736")
+	)
+	(wire
+		(pts
+			(xy 96.52 81.28) (xy 96.52 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9e3fb7-5b16-48e9-bc86-dd1e03790ca4")
+	)
+	(wire
+		(pts
+			(xy 92.71 62.23) (xy 96.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b26f77-749f-4889-8769-b1ba09101f8d")
+	)
+	(wire
+		(pts
+			(xy 106.68 60.96) (xy 106.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76898368-c228-4c28-863e-a3969f58e949")
+	)
+	(wire
+		(pts
+			(xy 63.5 240.03) (xy 63.5 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774c732b-316e-40e5-a3c0-3aba708b42d6")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 106.68 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7799288a-1cd1-409f-94b0-cc3f2d2f83ed")
+	)
+	(wire
+		(pts
+			(xy 64.77 111.76) (xy 76.2 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a12844-b8c1-4f0b-b550-5bee61c8400f")
+	)
+	(wire
+		(pts
+			(xy 76.2 184.15) (xy 76.2 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad9e90e-b18a-4371-bb82-f79c6a6de01a")
+	)
+	(wire
+		(pts
+			(xy 106.68 62.23) (xy 111.76 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8e1604-c224-4e29-b4be-2d6f1a20e9c4")
+	)
+	(wire
+		(pts
+			(xy 63.5 236.22) (xy 63.5 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83bd5666-c252-49f8-b9f5-9b35865bd0af")
+	)
+	(wire
+		(pts
+			(xy 38.1 238.76) (xy 54.61 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84455054-a698-4ed4-8473-1c1b4304a8d6")
+	)
+	(wire
+		(pts
+			(xy 53.34 121.92) (xy 55.88 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "845e02e5-35f1-4359-b680-6bd6c20a1f65")
+	)
+	(wire
+		(pts
+			(xy 142.24 59.69) (xy 142.24 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84880055-29f9-43ea-b049-aeb14ec5629d")
+	)
+	(wire
+		(pts
+			(xy 156.21 111.76) (xy 148.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85173fc4-179f-44af-831d-b7eff78ac5ed")
+	)
+	(wire
+		(pts
+			(xy 90.17 146.05) (xy 90.17 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85711674-fd68-4ffa-9c1a-6417e297178f")
+	)
+	(wire
+		(pts
+			(xy 66.04 255.27) (xy 73.66 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857c95d2-78fe-4294-b7f3-b73a50e5391b")
+	)
+	(wire
+		(pts
+			(xy 93.98 205.74) (xy 139.7 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8879861b-ee3c-4a5f-bead-2ec16ad4a689")
+	)
+	(wire
+		(pts
+			(xy 106.68 73.66) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89bc32c0-f062-4f68-91cc-d1f471365fbe")
+	)
+	(wire
+		(pts
+			(xy 38.1 171.45) (xy 54.61 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d605c2d-7aee-48f2-b604-8e64de6954d2")
+	)
+	(wire
+		(pts
+			(xy 52.07 205.74) (xy 55.88 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6ed24f-91ef-4b3f-b1c7-bd79c4787192")
+	)
+	(wire
+		(pts
+			(xy 38.1 35.56) (xy 40.64 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc5f4b1-ec31-459f-a0b2-02e0890d261f")
+	)
+	(wire
+		(pts
+			(xy 160.02 185.42) (xy 162.56 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9172fda3-6c5c-4ada-a2c4-0abfe39ace55")
+	)
+	(wire
+		(pts
+			(xy 105.41 146.05) (xy 97.79 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922f6dd5-49c0-4f4a-9317-76e1d4814d4b")
+	)
+	(wire
+		(pts
+			(xy 97.79 38.1) (xy 97.79 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e8fa0c-0d24-4546-b33f-6106926b0e29")
+	)
+	(wire
+		(pts
+			(xy 156.21 146.05) (xy 105.41 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d6b376-16c5-4294-9439-4c8e86335888")
+	)
+	(wire
+		(pts
+			(xy 64.77 184.15) (xy 76.2 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9803a29d-6e53-46a0-8b20-a75e834d6364")
+	)
+	(wire
+		(pts
+			(xy 92.71 36.83) (xy 92.71 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ebb414-93b6-421f-b057-345e4088536b")
+	)
+	(wire
+		(pts
+			(xy 154.94 246.38) (xy 73.66 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb531fa-3a6e-4468-9be1-30f0a996be4e")
+	)
+	(wire
+		(pts
+			(xy 80.01 172.72) (xy 85.09 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23fff4b-c597-4125-839c-d15e8afc78cb")
+	)
+	(wire
+		(pts
+			(xy 160.02 203.2) (xy 162.56 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31e84d8-cbf2-420c-8216-c15c0eb0ac6d")
+	)
+	(wire
+		(pts
+			(xy 66.04 35.56) (xy 67.31 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a367ae45-f6fb-4bbb-9d09-4edcbec2b1ef")
+	)
+	(wire
+		(pts
+			(xy 96.52 62.23) (xy 97.79 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5dd0d30-5dce-4ad1-ae5e-c69b8fe2b884")
+	)
+	(wire
+		(pts
+			(xy 53.34 46.99) (xy 83.82 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8aeb85f-a493-48d4-800c-9815ad8aeaca")
+	)
+	(wire
+		(pts
+			(xy 31.75 35.56) (xy 38.1 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac47a6e1-f447-42f0-ad2e-6f564dd351dd")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 137.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2c8916-7cb0-4306-81e4-6b9626b64cb1")
+	)
+	(wire
+		(pts
+			(xy 160.02 76.2) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afcbfd96-5389-47e9-a6b5-dd2991c265c7")
+	)
+	(wire
+		(pts
+			(xy 63.5 172.72) (xy 71.12 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ab9a37-3646-44db-b930-c8735b028bf4")
+	)
+	(wire
+		(pts
+			(xy 106.68 82.55) (xy 128.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b628a8b6-c3d1-43be-ba2e-cf6bf22e9ef2")
+	)
+	(wire
+		(pts
+			(xy 63.5 35.56) (xy 66.04 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b947b3-3ce9-4c69-8f81-17f309ee9a43")
+	)
+	(wire
+		(pts
+			(xy 139.7 205.74) (xy 156.21 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d750d9-c9c7-44de-84b7-25ac314c3708")
+	)
+	(wire
+		(pts
+			(xy 66.04 100.33) (xy 96.52 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba07a896-780c-491e-b384-fc1ffa7a5ba7")
+	)
+	(wire
+		(pts
+			(xy 137.16 125.73) (xy 144.78 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafbdc05-3385-4004-b728-1b151324c78b")
+	)
+	(wire
+		(pts
+			(xy 160.02 173.99) (xy 162.56 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7e5c84-5fdc-4f5b-995e-4167c5758174")
+	)
+	(wire
+		(pts
+			(xy 52.07 227.33) (xy 59.69 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c05d6138-d022-4597-9ff0-fe64348f4ca4")
+	)
+	(wire
+		(pts
+			(xy 77.47 35.56) (xy 83.82 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06caf2a-abdb-4cfb-8089-0cbdaf29145c")
+	)
+	(wire
+		(pts
+			(xy 77.47 62.23) (xy 85.09 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37077ed-637f-47f5-9931-513cb8777e77")
+	)
+	(wire
+		(pts
+			(xy 53.34 35.56) (xy 49.53 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c513d45c-db3c-42ac-8e1f-aa23936605f8")
+	)
+	(wire
+		(pts
+			(xy 96.52 73.66) (xy 96.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c9c347-b551-4182-9487-1f51476f9494")
+	)
+	(wire
+		(pts
+			(xy 76.2 184.15) (xy 83.82 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1b2098-907f-4f16-b60b-db7c45ffc5c0")
+	)
+	(wire
+		(pts
+			(xy 120.65 227.33) (xy 120.65 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf00a6b-3fb1-4936-8b52-8b0dd954acd9")
+	)
+	(wire
+		(pts
+			(xy 81.28 204.47) (xy 85.09 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7152ef-b06f-425c-bd8a-b6fe372cedf8")
+	)
+	(wire
+		(pts
+			(xy 111.76 185.42) (xy 156.21 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d036378e-9809-4153-87ed-8d991c08f517")
+	)
+	(wire
+		(pts
+			(xy 92.71 45.72) (xy 97.79 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d284929d-33db-44af-9f52-f3c69462bc34")
+	)
+	(wire
+		(pts
+			(xy 90.17 146.05) (xy 97.79 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29a3d79-24d8-4218-aab7-5e45ef576a77")
+	)
+	(wire
+		(pts
+			(xy 57.15 254) (xy 38.1 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41f02d9-4be8-4ab7-9648-75e797155d1f")
+	)
+	(wire
+		(pts
+			(xy 53.34 46.99) (xy 53.34 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82008ed-a79f-401e-8096-9a00896a7546")
+	)
+	(wire
+		(pts
+			(xy 53.34 35.56) (xy 53.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d872f93e-fd35-43f4-9d03-089854b56d88")
+	)
+	(wire
+		(pts
+			(xy 38.1 35.56) (xy 38.1 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d970fe55-4e24-428e-8f62-16eb1bd5ede5")
+	)
+	(wire
+		(pts
+			(xy 160.02 35.56) (xy 162.56 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0fa8cf0-8268-4754-9b08-a6339ed7b378")
+	)
+	(wire
+		(pts
+			(xy 92.71 185.42) (xy 111.76 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e167fcff-2457-45de-a605-ecc67f410617")
+	)
+	(wire
+		(pts
+			(xy 52.07 213.36) (xy 49.53 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b9ffb3-1946-4f06-bf19-3505bbce5959")
+	)
+	(wire
+		(pts
+			(xy 120.65 236.22) (xy 132.08 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4020d8-fefe-4753-8cce-36139fa086e6")
+	)
+	(wire
+		(pts
+			(xy 128.27 76.2) (xy 133.35 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed527674-1e34-429f-aea4-360a0d2c5c8d")
+	)
+	(wire
+		(pts
+			(xy 111.76 62.23) (xy 119.38 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b878a4-2e53-4b2f-9196-5caa83de3002")
+	)
+	(wire
+		(pts
+			(xy 73.66 246.38) (xy 73.66 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23c3e4b-de56-416c-bc89-87a5f0d5289c")
+	)
+	(wire
+		(pts
+			(xy 156.21 234.95) (xy 156.21 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f75faf1a-2c93-4b9f-adfa-ab626dc0b5c6")
+	)
+	(wire
+		(pts
+			(xy 118.11 160.02) (xy 118.11 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7dbbec1-04b5-4b85-b3ff-0387cae00ebd")
+	)
+	(wire
+		(pts
+			(xy 16.51 35.56) (xy 21.59 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b369e5-01c6-4cba-ae84-92e42efd0275")
+	)
+	(wire
+		(pts
+			(xy 96.52 73.66) (xy 97.79 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faad7ee3-481f-42d9-b6ba-a0037ee662f2")
+	)
+	(wire
+		(pts
+			(xy 111.76 166.37) (xy 110.49 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb349c9-19b5-4643-8a8d-c77c1e0bbc20")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 140.97 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc2e7b31-4b34-4575-b1d5-e70a29a7ac0f")
+	)
+	(wire
+		(pts
+			(xy 76.2 34.29) (xy 76.2 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcdccb19-e699-4a30-8ddb-8eac4f1637da")
+	)
+	(text "Stops the motor for READ STOP\nor various other conditions.\nWon't stop while RC2 closed."
+		(exclude_from_sim no)
+		(at 133.35 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "044f159b-3102-44fb-b1fb-b5a532ef3c41")
+	)
+	(text "155°-277°"
+		(exclude_from_sim no)
+		(at 47.752 192.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "318c6b72-c234-43b1-bfa2-bfd1035fa41d")
+	)
+	(text "R9 picks HD1 which\npowers the motor"
+		(exclude_from_sim no)
+		(at 179.07 37.338 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "392d240a-e31e-45fd-a80f-c5ed6dc9f2b5")
+	)
+	(text "Delay on pick"
+		(exclude_from_sim no)
+		(at 85.09 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55d7e984-a59a-4865-a67c-5f770680123b")
+	)
+	(text "CLUTCH CHECK is picked for a clutch cycle.\nIt is used to verify (via clutched cams) that\na) If a clutch cycle was requested, it happens.\nb) If a cluch cycle was not requested, it doesn't happen.\nA violation triggers a READER STOP."
+		(exclude_from_sim no)
+		(at 68.072 218.186 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6183c757-42cc-4c90-95a5-4c964e705c7b")
+	)
+	(text "MISC\nINTERLOCKS"
+		(exclude_from_sim no)
+		(at 26.67 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "69d61e87-62c9-44a1-8870-45e88768a52b")
+	)
+	(text "8°-93°,\n128°-213°,\n248°-333°"
+		(exclude_from_sim no)
+		(at 46.228 168.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e0703fd-19f0-43be-834f-98d857780faa")
+	)
+	(text "Delay drop of R8 for 3-5 seconds on\nmotor startup if hopper is empty.\nIf file feed is used, cards need to fall\ninto the hopper.\nNo delay for NPRO."
+		(exclude_from_sim no)
+		(at 139.446 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a170694-dac3-45b4-99f8-527e8cb8069b")
+	)
+	(text "These control power to key circuits."
+		(exclude_from_sim no)
+		(at 61.722 26.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a6cf647-d09c-47fe-9ee4-b178dff9404a")
+	)
+	(text "These are miscellaneous cam-controlled reader circuits."
+		(exclude_from_sim no)
+		(at 42.418 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ab030a8-bf6f-4b6a-b98f-6bdcab52cb71")
+	)
+	(text "340°-65°,\n100°-185°,\n220°-305°"
+		(exclude_from_sim no)
+		(at 46.99 179.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92226bbf-4f3d-4efc-a6f1-833544fea050")
+	)
+	(text "Blocks the LOAD KEY if anything is wrong.\nMust have no READER STOP, cards in hopper,\nno card at CL #2,\nno card at CL #1 or no clutch (?)"
+		(exclude_from_sim no)
+		(at 119.888 52.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cbedfd4-f858-4e12-895c-f026ca60364f")
+	)
+	(text "DU2 is picked by LOAD\nor START, starting the\nmotor process."
+		(exclude_from_sim no)
+		(at 86.36 26.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1fcfb72-855e-4f9d-b853-b34bc2cc50c5")
+	)
+	(text "8°-93°,\n128°-213°,\n248°-333°"
+		(exclude_from_sim no)
+		(at 48.514 250.952 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3fef3c5-339c-4587-af8b-b92109f92802")
+	)
+	(text "NPRO allowed if\nhopper is empty."
+		(exclude_from_sim no)
+		(at 91.44 50.546 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a8b27199-76ac-4fb3-8cab-691090e0f191")
+	)
+	(text "155°-185°,\n242°-307°"
+		(exclude_from_sim no)
+		(at 34.29 216.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afad0e01-0ca2-4792-a2e6-bcf3dd896365")
+	)
+	(text "342°-27°,\n102°-147°,\n222°-267°"
+		(exclude_from_sim no)
+		(at 64.516 203.962 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b097147d-efed-473f-b37e-f86bc2a1f995")
+	)
+	(text "HD1 powers the motor."
+		(exclude_from_sim no)
+		(at 181.356 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d6f7bdd5-63a9-4c1a-a730-182d22a2a34f")
+	)
+	(text "R8 picked if motor is off,\nafter delay.\nR8 provides a delay between\nR9 MOTOR CONTROL and R7 RUN\nif file feed is used and cards\nneed to fall into the hopper."
+		(exclude_from_sim no)
+		(at 169.672 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dab2edd1-2baf-421b-9f6b-33c304cd1df2")
+	)
+	(text "When RUN is picked, clutch\ncycles can be performed.\nIt can be delayed on\nstartup by R8."
+		(exclude_from_sim no)
+		(at 167.894 172.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0d245d2-0ab2-4fe5-a507-294c7475c88d")
+	)
+	(label "-20"
+		(at 38.1 238.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "014e0472-82e0-418e-952a-4769add7bdbb")
+	)
+	(label "-20"
+		(at 36.83 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2150df8d-b4ac-4a91-bfec-6c0a2119214d")
+	)
+	(label "-20"
+		(at 36.83 212.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4bd3ff3e-5e2d-42fa-a44f-d903b24815b8")
+	)
+	(label "RC 186 RD COMP GATE"
+		(at 163.83 246.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5596d348-b08a-4233-9cb5-404aa374166c")
+	)
+	(label "-20"
+		(at 16.51 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6271371f-6699-42da-a0c0-10762cfaed30")
+	)
+	(label "Other READ STOP cases"
+		(at 137.16 200.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "933a2662-36b9-40fe-8260-54b693479cec")
+	)
+	(label "RC169 LOAD KEY"
+		(at 170.18 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af2d8c6e-a552-4c6b-80f9-c77eebc6ac3b")
+	)
+	(label "-20"
+		(at 36.83 194.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2bbc840-5ce9-41f1-8336-a0e1cbed2e24")
+	)
+	(label "-20"
+		(at 38.1 254 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f20ec7b1-2896-4e37-aa25-e49a53884aae")
+	)
+	(symbol
+		(lib_id "ibm:switch")
+		(at 165.1 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "002d5e76-b148-43ba-bc0c-eee7b1ebd783")
+		(property "Reference" "LOAD1"
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "switch"
+			(at 165.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "e6f58e63-f5a7-4cac-9086-6cd057287899")
+		)
+		(pin ""
+			(uuid "3473379d-0ed2-47be-98f1-5b63de9275d4")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "LOAD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-coil")
+		(at 158.75 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08443d05-8f0c-4139-8014-3db7eee8f767")
+		(property "Reference" "7H"
+			(at 156.21 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RUN"
+			(at 162.56 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "afb6f0af-0888-48ef-9c19-93947a97f90d")
+		)
+		(pin "1"
+			(uuid "88d52bad-6683-473e-97d1-bf995cb76ad7")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "7H")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 153.67 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08791ee7-9630-42fa-87d8-9d36f38f7686")
+		(property "Reference" "RD25"
+			(at 153.67 57.785 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 153.67 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.924 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "114bc3a9-8770-41c8-8935-5064ace69c07")
+		)
+		(pin "2"
+			(uuid "2422ae92-eb4d-4379-b50b-febabb70940c")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RD25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-coil")
+		(at 158.75 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bb04362-358b-41d3-97ac-db5c27909efa")
+		(property "Reference" "9H"
+			(at 156.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOTOR CONTROL"
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1097a349-1164-475b-88f0-b5fdd93cd45d")
+		)
+		(pin "1"
+			(uuid "bf40c3b7-3d92-456b-922d-303ddcbce58a")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "9H")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NC")
+		(at 69.85 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12ca1cc8-ef26-4f3a-825f-6a87ccbb383d")
+		(property "Reference" "8-1"
+			(at 76.2 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DELAY"
+			(at 74.93 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a21188c-494a-432b-b088-7724fb03063d")
+		)
+		(pin "2"
+			(uuid "dda57ca2-2cdc-47ad-ae36-3b682e21a37a")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "8-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-coil")
+		(at 158.75 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14e6b941-8de6-487e-8e79-78eb548bd581")
+		(property "Reference" "HD1"
+			(at 156.21 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "READ MOTOR"
+			(at 162.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4846ecf3-7708-4587-91f2-8b83cc125eb0")
+		)
+		(pin "1"
+			(uuid "131cd439-3b57-4731-8ff3-ef15c2f6df51")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "HD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 97.79 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "186460e0-64a7-4de4-9a80-4dc02c6494cf")
+		(property "Reference" "C1"
+			(at 101.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 101.6 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 98.7552 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b0ecc2f-f6ad-42a1-bbff-b176eea1c315")
+		)
+		(pin "1"
+			(uuid "6d613d62-b862-4f42-9ebd-81fe96eb8ac5")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 71.12 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a2809a1-c32a-4ee0-a322-3dc3ae9828d6")
+		(property "Reference" "RD3"
+			(at 71.12 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 71.12 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 71.12 200.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 71.12 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 71.12 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 71.12 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34ab2358-bdc9-449f-97c9-ab95648e99f7")
+		)
+		(pin "2"
+			(uuid "e6467f03-88f8-47c4-a58a-a53ea99eb324")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RD3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:switch_NC")
+		(at 144.78 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d5a8510-f59d-4b37-9004-67b21b96c280")
+		(property "Reference" "NPRO2"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "switch"
+			(at 144.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c43a6b03-999c-48ef-a544-2e2ed96c006d")
+		)
+		(pin ""
+			(uuid "86c131dc-79a9-469c-96d1-884cb5be0358")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "NPRO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-coil")
+		(at 158.75 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f997deb-6e0e-4a23-a9ea-84a8bfc97423")
+		(property "Reference" "9P"
+			(at 156.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOTOR CONTROL"
+			(at 162.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13c448f7-08a1-47da-b454-280f51ec2821")
+		)
+		(pin "1"
+			(uuid "0c3bca3f-e6d4-4d4c-b65f-ab2ca9b2b5a9")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "9P")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NC")
+		(at 82.55 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2390ffd1-d808-4bfa-accf-8c9cdd7e6c3c")
+		(property "Reference" "1-1"
+			(at 84.836 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HOPPER CL"
+			(at 84.836 43.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db8e39f0-40aa-41cb-840b-a73339d2af8b")
+		)
+		(pin "2"
+			(uuid "fd6ffb08-d8d8-42e7-8a84-b62eeda0bc10")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "1-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NO")
+		(at 96.52 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24e8bb01-7b0f-472d-b29b-9a1196f6adc7")
+		(property "Reference" "1-3"
+			(at 99.06 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HOPPER CL"
+			(at 99.06 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3385ef59-7e82-4250-942c-f2739bdcdc8e")
+		)
+		(pin "1"
+			(uuid "f0005369-0f32-4e61-b087-6aed06e06762")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "1-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:GND")
+		(at 97.79 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fd05fab-0f76-4bb5-b3c5-e47c13fb2e02")
+		(property "Reference" "#PWR02"
+			(at 97.79 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "68d8fcc8-bc68-490a-a8e9-6befcad0a74d")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:switch_NONC")
+		(at 101.6 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30d769df-0e55-493b-af0f-b75a41629bd0")
+		(property "Reference" "SW3"
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "RDR NPRO"
+			(at 101.6 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ba9b45df-0db5-4bbe-a9e4-eafa5e9e0c37")
+		)
+		(pin ""
+			(uuid "96a47415-0627-4807-a299-2fd5a14ae55c")
+		)
+		(pin ""
+			(uuid "a192bfae-6d84-4f43-b257-ed2e82d0a8a9")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 86.36 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "338f1f90-fc95-4289-8c6b-7c42c79a781e")
+		(property "Reference" "RD6"
+			(at 86.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 86.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 86.36 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f91134a9-26c0-465d-9bd3-39e93cc011b3")
+		)
+		(pin "2"
+			(uuid "9ab2b704-723a-45d3-9750-538c21a6da7f")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RD6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 88.9 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "373d09de-5148-48d2-86cc-ab8fc8df0e1c")
+		(property "Reference" "RD18"
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 88.9 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 88.9 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 88.9 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 88.9 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e7b89ff-912a-4a54-85bc-931da0a84aa6")
+		)
+		(pin "2"
+			(uuid "7d342f00-6be6-46b2-b82d-5faecb71dd91")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RD18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 137.16 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ed5519d-7418-4dce-806b-30d4a95a7439")
+		(property "Reference" "RD24"
+			(at 133.985 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 133.35 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 136.144 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83410a4a-bf55-4227-802b-e44c270c0a10")
+		)
+		(pin "2"
+			(uuid "e01bf418-ed88-49b1-b50b-533da35cb2ff")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RD24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:GND")
+		(at 162.56 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "521b00f1-39a0-44bb-b8ee-6c7df86d05e4")
+		(property "Reference" "#PWR018"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "82b1206f-8f79-4656-ab62-59e8a71be2e9")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-coil")
+		(at 158.75 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "544ac57a-61a5-4c41-93cd-1b39d4c9c738")
+		(property "Reference" "7P"
+			(at 156.21 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RUN"
+			(at 162.56 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1135b875-3884-4a69-9c1f-bd852dfbaae4")
+		)
+		(pin "1"
+			(uuid "6d03f6c6-294e-450f-85fb-a797e13fb01f")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "7P")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:cam")
+		(at 54.61 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ca00353-2528-4601-b20e-ebce86f846b9")
+		(property "Reference" "RL3"
+			(at 59.69 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 66.04 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaf553f8-49a3-48a3-b206-eaac4433f841")
+		)
+		(pin "3"
+			(uuid "e2e00e32-d399-4946-8f0e-d92a4a9b3213")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RL3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NONC")
+		(at 95.25 205.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "600dcde7-51d0-4a44-b729-84ddad9631a6")
+		(property "Reference" "10-3"
+			(at 86.36 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "CLUTCH CHECK"
+			(at 98.044 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "226f065d-259c-4bac-9b32-d8db9942bef1")
+		)
+		(pin "2"
+			(uuid "e73ead7c-2113-499c-bfdf-69883013c922")
+		)
+		(pin "1"
+			(uuid "6f57bde4-d2e8-48a4-a28f-31d56dd1f93a")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "10-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:GND")
+		(at 162.56 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "640bbc68-4504-43f8-9f2f-0f07c2f09534")
+		(property "Reference" "#PWR017"
+			(at 162.56 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a6174516-adda-4b22-90d0-b468df58cb8d")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NC")
+		(at 39.37 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "642a737e-aa6c-4fdc-805a-11f32194178a")
+		(property "Reference" "DU3-AU1"
+			(at 45.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "JOGGLE SW"
+			(at 38.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f28239d9-fe50-464b-8026-c6ba97d3dd92")
+		)
+		(pin "2"
+			(uuid "e0942216-542c-4382-97ac-85c0afaacdbd")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "DU3-AU1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NONC")
+		(at 54.61 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68927434-e5ce-41e3-b98f-5a58037b082c")
+		(property "Reference" "9-1"
+			(at 63.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "MOTOR CONTROL"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e20e36c8-b026-4894-bcb2-76d21ee14270")
+		)
+		(pin "2"
+			(uuid "12c9baf3-b9e0-4f49-a474-ce6a231d0ca0")
+		)
+		(pin "1"
+			(uuid "fe7d8dd2-7834-403d-81fa-3728b3ab069a")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "9-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NC")
+		(at 66.04 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a0f7309-efba-43f2-855a-45bdc9efb77f")
+		(property "Reference" "4-5"
+			(at 72.39 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "READ STOP"
+			(at 71.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b49fcff2-bdf3-4bf8-ab53-771d34b0a94d")
+		)
+		(pin "2"
+			(uuid "1c63e8aa-21c5-4d7a-a4cc-5cbaa0629656")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "4-5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 80.01 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e7815cb-4f8b-48a8-a950-53657a148f8c")
+		(property "Reference" "RD4"
+			(at 80.01 142.875 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 80.01 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.264 145.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e73bdf79-14fc-47be-9064-0e59048f6b38")
+		)
+		(pin "2"
+			(uuid "744ec2f5-b37f-45a3-b038-e12da518126d")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RD4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:GND")
+		(at 162.56 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7012c958-89b5-4c64-b7e8-120d2e447eea")
+		(property "Reference" "#PWR011"
+			(at 162.56 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f8d03d09-6d87-4ee4-87cf-61897b86b9a9")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-coil")
+		(at 158.75 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a26c265-3756-42a1-b703-412b2d8cd841")
+		(property "Reference" "4P"
+			(at 156.21 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "READ STOP"
+			(at 162.56 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e04af26-3d88-4b3a-9e9b-1f2fb8c86b68")
+		)
+		(pin "1"
+			(uuid "04cadd2f-7641-4550-9e0d-b0f9b3425fe7")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "4P")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NO")
+		(at 132.08 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ad2f8eb-75b1-430b-bb58-60916a792da4")
+		(property "Reference" "9-3"
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOTOR CONTROL"
+			(at 135.89 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "053348b5-ab92-47f4-8869-13ca74de5fe9")
+		)
+		(pin "1"
+			(uuid "3424f425-998b-452b-a2ca-cd54f4517062")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "9-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 90.17 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80101cb4-d907-4b53-9a6a-0db3f6587a4c")
+		(property "Reference" "RD11"
+			(at 86.995 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 86.36 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 89.154 150.876 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b0ca560-046c-4a1c-a23b-e6a6361a0ad8")
+		)
+		(pin "2"
+			(uuid "2a733a9f-e404-49d2-8ec8-2fd8c243e4df")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RD11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:cam")
+		(at 39.37 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8291a8df-136b-4cfa-bed4-c3667b2fe832")
+		(property "Reference" "RL1"
+			(at 44.45 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 50.8 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b5a8fa9-3ca6-4dd8-ae66-ce1eba642729")
+		)
+		(pin "3"
+			(uuid "ae60524d-c8e1-4148-a966-c28b7caa61d3")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-coil")
+		(at 158.75 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86279ae5-4cac-4539-88b0-1e7acc869046")
+		(property "Reference" "8H"
+			(at 156.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DELAY"
+			(at 162.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8b72bd7-a74b-4b28-b789-964f1279057f")
+		)
+		(pin "1"
+			(uuid "155aa2eb-d34e-44e4-843e-6aab507edc78")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "8H")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NO")
+		(at 82.55 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c955db1-5471-406c-823a-4ade5156198e")
+		(property "Reference" "DU2-AU1"
+			(at 86.36 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "START"
+			(at 86.36 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6e59a289-c278-4fa9-8e31-32858da85d8b")
+		)
+		(pin "1"
+			(uuid "16a0510d-f7d5-405a-943d-e71b90c3e2ae")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "DU2-AU1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 114.3 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cf43775-abb8-4a87-8d17-38e32b70a397")
+		(property "Reference" "RD22"
+			(at 114.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 114.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 114.3 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 114.3 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 114.3 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed311772-0609-4296-949a-0d04b98d116a")
+		)
+		(pin "2"
+			(uuid "90237482-bec1-4053-8832-2fa3e70df9c4")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RD22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d4168b6-46db-45d8-a7b2-2e572190cdd7")
+		(property "Reference" "C2"
+			(at 148.59 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 148.59 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.7452 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95d4c5ba-7176-4735-8816-49f653573504")
+		)
+		(pin "1"
+			(uuid "f731d175-564e-4199-80da-d4e087bb5bb7")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 63.5 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "963b5926-ea88-4ea3-9963-219495723ad2")
+		(property "Reference" "RD1"
+			(at 63.5 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 63.5 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 63.5 231.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 63.5 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 63.5 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 63.5 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fabf0a0e-a2c2-46c5-bd05-3ce760ccaceb")
+		)
+		(pin "2"
+			(uuid "aaf79769-b08a-4fbe-b573-fa3674bac213")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:GND")
+		(at 162.56 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "982f4018-a0cf-483b-b197-999e22f31ca2")
+		(property "Reference" "#PWR019"
+			(at 162.56 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2b68b28f-3a5b-4b25-8412-931ace404c19")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:GND")
+		(at 162.56 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b02dea4-43bf-4d0d-bdfc-e8043650976b")
+		(property "Reference" "#PWR024"
+			(at 162.56 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "cf05709d-184b-4183-b0c8-939db83e79e2")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:GND")
+		(at 162.56 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a011ed64-ccf3-496f-80f5-2d8a62f5ae23")
+		(property "Reference" "#PWR05"
+			(at 162.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "9f65801e-2a55-4181-bb84-a46f768161a3")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NO")
+		(at 130.81 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a637e4fb-4f1b-4e21-b8ff-5b2593a9a98a")
+		(property "Reference" "11-1"
+			(at 133.858 231.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "#1 CL DELAY"
+			(at 133.604 233.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "102d52c6-81ab-4e28-9a3e-ccc3858e3ba7")
+		)
+		(pin "1"
+			(uuid "9e892695-a702-463a-93cf-734267380bfd")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "11-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:GND")
+		(at 162.56 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a75f55b4-7a87-421f-b2e8-155047339863")
+		(property "Reference" "#PWR020"
+			(at 162.56 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8d938616-8e41-4c4e-bab1-ce9ed9277c9e")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NC")
+		(at 132.08 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a79f8bfc-5be1-4071-807c-7095b7c2d0c5")
+		(property "Reference" "2-6"
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "#1 CL"
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e51d795a-0dbb-4d4f-919b-a1ef0b0f7e26")
+		)
+		(pin "2"
+			(uuid "ff9c4024-6a84-41d1-bf55-007d27eb4d0a")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "2-6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NC")
+		(at 96.52 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0bdd2af-d527-4034-9f22-814f6bffb7b2")
+		(property "Reference" "2-2"
+			(at 102.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "#1 CL"
+			(at 101.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f62a911-49ba-45e8-8037-eee61407ec86")
+		)
+		(pin "2"
+			(uuid "1a4ba063-0958-4315-9be7-5e2425cc6c18")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "2-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NC")
+		(at 96.52 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1e86235-e409-4c1c-946a-fb7110dece70")
+		(property "Reference" "10-2"
+			(at 98.806 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CLUTCH CHK"
+			(at 98.806 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd9fb04f-1266-49a3-ae9c-f645b6f2c23a")
+		)
+		(pin "2"
+			(uuid "351de07d-3fab-46ac-9624-7a5e142d15db")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "10-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 158.75 246.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6c699b8-2879-4517-96eb-c324b4e7590d")
+		(property "Reference" "RD26"
+			(at 158.75 243.205 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 158.75 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.004 245.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96dcaf15-fb46-4c2c-9f6e-f68d6ef36554")
+		)
+		(pin "2"
+			(uuid "dc96cd7c-f907-4908-9fde-db09a79c6ca5")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RD26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:cam")
+		(at 55.88 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c15b53e5-9163-4e92-8b37-a99e19969735")
+		(property "Reference" "RC4"
+			(at 60.96 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 67.31 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48cb4690-1efd-408c-b69c-7bff2e8f6e85")
+		)
+		(pin "3"
+			(uuid "f7ff257b-8bc0-4d05-a63c-db099c052af4")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NC")
+		(at 53.34 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3317ce1-ebbe-47ff-9733-e233e71f7b8a")
+		(property "Reference" "DU3-AU2"
+			(at 59.69 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INTERLOCK STOP"
+			(at 52.07 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10d473ee-5895-46d5-ad23-41e10fe7d636")
+		)
+		(pin "2"
+			(uuid "ae38342e-bb74-478a-a682-a55b4c931fc9")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "DU3-AU2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:cam")
+		(at 95.25 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce6fdb30-3107-4262-9669-8664bbeb16e1")
+		(property "Reference" "RC9"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21770dbd-7628-4cc3-b49f-78813bea2bd8")
+		)
+		(pin "3"
+			(uuid "77c40121-429f-4dda-a47a-f3614b3d7724")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RC9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NC")
+		(at 69.85 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d200ccbe-ea29-4120-8b64-22d3f1b68da5")
+		(property "Reference" "8-2"
+			(at 76.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DELAY"
+			(at 76.2 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bb11da3-1402-48d1-94a8-038c418e78da")
+		)
+		(pin "2"
+			(uuid "3de8f370-1459-4eff-a0c3-9a58ef9ab923")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "8-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:GND")
+		(at 162.56 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3686e22-b472-438a-8c03-024151fae820")
+		(property "Reference" "#PWR012"
+			(at 162.56 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "70e59eb4-0ae3-4e64-b7f2-072348231c81")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:cam")
+		(at 54.61 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d898aa6c-ad1c-4603-a501-8585e7f42ac6")
+		(property "Reference" "RC2"
+			(at 59.69 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 66.04 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0411427-97df-4d96-9b1d-21ba030deba1")
+		)
+		(pin "3"
+			(uuid "e7c7d190-7584-4e6a-881f-9802a451a0b9")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NC")
+		(at 96.52 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbbd4b98-a1a7-4953-ac4f-dad8f0def5ae")
+		(property "Reference" "6-2"
+			(at 99.06 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "READ FD"
+			(at 99.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41f51d72-ccac-4558-b161-7067172d5fdd")
+		)
+		(pin "1"
+			(uuid "914c811d-b4c6-4220-aef5-8f9469277796")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "6-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NONC")
+		(at 118.11 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df977922-3179-4eb0-ac0f-ce21b70c170b")
+		(property "Reference" "3-2"
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "#2 CL"
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f801d4be-fd94-44b1-abf4-365966c157ff")
+		)
+		(pin "2"
+			(uuid "b3faf4c0-35e7-4f12-8d06-1b6611214fa2")
+		)
+		(pin "1"
+			(uuid "60be0ba8-a371-4b43-b2b2-806e575083c2")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "3-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-coil")
+		(at 158.75 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4b7fa61-90dd-4ce5-90ab-44990a42c47d")
+		(property "Reference" "11H"
+			(at 156.21 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "#1 CL DELAY"
+			(at 162.56 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cae183ce-81c4-44ea-85b0-f429486b1602")
+		)
+		(pin "1"
+			(uuid "c7dbc8fb-d224-4b27-b55e-40a7557b9779")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "11H")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:cam")
+		(at 53.34 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e94000d5-66d2-4cc8-9f44-7cc5a720dbc7")
+		(property "Reference" "RC1"
+			(at 58.42 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8afceb6c-a137-414e-a715-32aea486dfc1")
+		)
+		(pin "3"
+			(uuid "03676500-6ab3-45e3-85da-25a9ce664071")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-coil")
+		(at 158.75 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea070be2-f384-4055-9477-14cedf91a124")
+		(property "Reference" "8P"
+			(at 156.21 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DELAY"
+			(at 162.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6dc17884-0401-4f34-806c-2ac1a4f1233b")
+		)
+		(pin "1"
+			(uuid "724b3f29-d348-4699-86fe-404e1b01a39a")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "8P")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NO")
+		(at 83.82 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb0d7fa0-4d38-4e4d-ac62-cc5d2e65958c")
+		(property "Reference" "9-2"
+			(at 88.9 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOTOR CONTROL"
+			(at 87.63 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bcf66fce-9d37-4870-833a-96fcba5edb24")
+		)
+		(pin "1"
+			(uuid "c31436b7-854e-428c-8570-8a2d86285b72")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "9-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:GND")
+		(at 162.56 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f132c3b2-9ad7-4288-ae25-91be7512cd83")
+		(property "Reference" "#PWR021"
+			(at 162.56 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "dcdf0d65-4862-4380-a519-8f282ed0ddbe")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:cam")
+		(at 54.61 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1c7fe80-f1a8-4e46-ba28-eadc02d41055")
+		(property "Reference" "RC3"
+			(at 59.69 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 66.04 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e91d1bf-4cfc-420f-8c20-9b0e1ce94030")
+		)
+		(pin "3"
+			(uuid "44f61cac-adc5-47db-8dd8-c05dd9a58ce9")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:GND")
+		(at 144.78 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f226a08a-ccaa-4c64-a13e-07991d91904c")
+		(property "Reference" "#PWR04"
+			(at 144.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "9b7ab6d0-0f12-4d87-958c-95e151ad0f98")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 137.16 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f589b8ce-06f1-40c2-9e1f-61c8204ec479")
+		(property "Reference" "RD23"
+			(at 133.985 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 133.35 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 136.144 117.856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b570bc6-ab85-4f55-b9ef-cd773e884bee")
+		)
+		(pin "2"
+			(uuid "c92cc844-95e9-4176-96e6-aa7e57a936e7")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "RD23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:GND")
+		(at 90.17 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f60bea71-db9f-4fc6-b10d-a03c70638a56")
+		(property "Reference" "#PWR01"
+			(at 90.17 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "24640d68-4b9d-4b55-b44c-6bae1067fac6")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:GND")
+		(at 137.16 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6b5c3f1-d938-482e-a483-ea0d16c9082e")
+		(property "Reference" "#PWR03"
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "24d3463c-3c17-48e2-a9ef-092b811d8ec2")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NONC")
+		(at 53.34 238.76 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8599f36-3c6c-4668-ae9c-8ff63b2d238d")
+		(property "Reference" "12-1"
+			(at 60.706 242.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "FEED CONTROL"
+			(at 49.022 243.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "14bcfa06-18bd-4061-8764-1ffd9364ec21")
+		)
+		(pin "2"
+			(uuid "46985410-1113-4b1e-a9f2-584de60e2b33")
+		)
+		(pin "1"
+			(uuid "50debe90-592c-447a-8bfc-4c6507802f19")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "12-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NO")
+		(at 82.55 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f929ad54-9abd-42c2-86f9-9bd3e4251fa5")
+		(property "Reference" "7-1"
+			(at 87.63 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RUN"
+			(at 86.36 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6ff2e03f-f62d-4faa-b68d-947d95f77622")
+		)
+		(pin "1"
+			(uuid "c04bff51-7313-46a2-a281-5c2398ba277f")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "7-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ibm:relay-NONC")
+		(at 95.25 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f989da40-e547-47cc-bfec-ec59c9a57161")
+		(property "Reference" "1-2"
+			(at 104.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "HOPPER CL"
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "14f184ef-9911-4263-bd92-a364c181ece4")
+		)
+		(pin "2"
+			(uuid "bcd8e8db-ab40-47d9-87fc-7d1ecce07555")
+		)
+		(pin "1"
+			(uuid "dd14de50-e35f-4e6a-a0f2-2218faac28fd")
+		)
+		(instances
+			(project "1402-schematics"
+				(path "/f0105c73-ef22-447c-b397-7ab9470c412b/8d008fff-6948-4de5-ad8e-92451d52b261"
+					(reference "1-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

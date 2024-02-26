@@ -1,0 +1,9 @@
+*.lck
+*.swp
+*autosave*
+#auto_saved_files#/
+1402-schematics-backups/
+1402-schematics.kicad_sch-bak
+fp-info-cache/
+ibm.bak
+~1402-schematics.kicad_sch.lck
