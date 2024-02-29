@@ -6,8 +6,8 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "IBM 1401 Card Levers, Feed, Stop")
-		(date "2024-02-26")
-		(rev "0.1")
+		(date "2024-02-28")
+		(rev "0.2")
 		(comment 1 "Ken Shirriff")
 	)
 	(lib_symbols

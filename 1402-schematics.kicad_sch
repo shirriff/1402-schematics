@@ -6,8 +6,8 @@
 	(paper "USLetter" portrait)
 	(title_block
 		(title "IBM 1402 schematics - index")
-		(date "2024-02-26")
-		(rev "0.1")
+		(date "2024-02-28")
+		(rev "0.2")
 		(company "Ken Shirriff")
 	)
 	(lib_symbols)
