@@ -27,7 +27,7 @@ the NOT PROC FEED and PROC FEED signals. These are resistors RD20 and RD27, whic
 the resistor/diode (RD) panel on the front of the 1402. Each block has 12 positions, sequentially numbered as
 shown below.
 
-![image](https://github.com/shirriff/1402-schematics/assets/188116/836e3186-dcfa-4752-951a-9277b478bb9a)
+![PXL_20240306_180901536](https://github.com/shirriff/1402-schematics/assets/188116/5266ecb4-6840-4223-912c-9aae9eccddec)
 
 This photo shows a typical NPRO with pulses on PROC FEED and NOT PROC FEED. On DE, the feed pulses are approximately 15 ms wide, every 82 ms. The pulses are nominally 70° wide, from 272° to 342°, controlled by cam RC6. (The timings are slightly different between DE and CT.) Note that the clutch cycle starts at 315°, not 0° as you might expect.
 
